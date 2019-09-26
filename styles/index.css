@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.wrapper {
+wrapper {
     width: 500px;
     height: 100vh;
     margin: auto;
@@ -15,21 +15,21 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: pink;
+    background pink;
 }
 
 .position-block {
     height: 50vh;
     position: relative;
     background: lemonchiffon;
-}
+
 
 .block {
     width: 100px;
     height: 100px;
 }
 
-.red {
+#red {
     background: red;
 }
 
@@ -37,7 +37,7 @@
     background: green;
 }
 
-.blue {
+.blue 
     background: blue;
 }
 
