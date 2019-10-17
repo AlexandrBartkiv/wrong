@@ -4,57 +4,38 @@
     box-sizing: border-box;
 }
 
-wrapper {
-    width: 500px;
-    height: 100vh;
-    margin: auto;
-}
-
-.flex-block {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background pink;
-}
-
-.position-block {
-    height: 50vh;
+.wrapper {
     position: relative;
-    background: lemonchiffon;
-
-
-.block {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
 }
 
-#red {
-    background: red;
-}
-
-.green {
-    background: green;
-}
-
-.blue 
-    background: blue;
-}
-
-.first {
+.wrapper > div:nth-child(1) {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    background: red;
 }
 
-.second {
+.wrapper > div:nth-child(2) {
     position: absolute;
-    top: calc(25vh - 50px);
-    left: 200px;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    background: green;
 }
 
-.third {
+.wrapper > div:nth-child(3) {
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 200px;
+    height: 200px;
+    background: blue;
 }
