@@ -1,0 +1,22 @@
+.names {
+    width: 300px;
+    margin: auto;
+}
+
+.names-item {
+    position: relative;
+    right: 0px;
+    font-size: 20px;
+    background: grey;
+    list-style-type: none;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.names-item:hover {
+    right: 5px;
+}
+
+.names-item > img {
+    width: 100%;
+}
