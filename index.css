@@ -1,22 +1,10 @@
-.names {
-    width: 300px;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.names-item {
-    position: relative;
-    right: 0px;
-    font-size: 20px;
-    background: grey;
-    list-style-type: none;
-    cursor: pointer;
-    transition: all ease .3s;
-}
-
-.names-item:hover {
-    right: 5px;
-}
-
-.names-item > img {
+.player__life {
     width: 100%;
+    height: 50px;
+    background: green;
 }
